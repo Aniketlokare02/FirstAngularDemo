@@ -1,0 +1,12 @@
+<h1>This is Angular Project</h1>
+<h2>{{message}}</h2>
+<h3>My Name is Aniket</h3>
+<p>
+City: <input type="text" [value]="city" [disabled]="isDisable"> <br><br>
+
+City: <input type="text" value="{{city}}" bind-disabled="isDisable"><br><br>
+
+<input type="button" value="Pay" (click)="display()">
+</p>
+{{25 | myMath}}
+{{2 | myMath}}
